@@ -1,0 +1,18 @@
+sudo apt-get install default-jdk
+sudo -u
+wget https://dlcdn.apache.org/spark/spark-3.5.2/spark-3.5.2-bin-hadoop3.tgz
+export SPARK_HOME=/opt/spark
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+
+
+
+tar -xvf spark-3.5.2-bin-hadoop3.tgz
+nano ~/.bashrc
+source ~/.bashrc
+
+spark-3.5.2-bin-hadoop3
+
+to connect with python code
+pip install pyspark
+
+docker run -it apache/spark /opt/spark/bin/spark-shell
