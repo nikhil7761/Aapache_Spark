@@ -16,3 +16,7 @@ to connect with python code
 pip install pyspark
 
 docker run -it apache/spark /opt/spark/bin/spark-shell
+
+jupyter notebook stop
+jupyter notebook --ip=0.0.0.0 --port=8888
+
